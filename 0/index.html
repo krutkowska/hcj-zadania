@@ -8,40 +8,39 @@
         <meta name="viewport" content="width=device-width">
 
         <link rel="stylesheet" href="css/normalize.min.css">
-        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css' />
 		<link href='http://fonts.googleapis.com/css?family=Abel|Satisfy' rel='stylesheet' type='text/css' />
 	
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
-    	<div id="header-wrapper">
+    	<div class="container">
 			<header id="header">
-				<div id="logo">
-					<h1><a href="#">Can i has cheeseburger</a></h1>
-				</div>
-				<nav id="menu">
-					<ul>
-						<li class="current_page_item">
-							<a href="homepage">Homepage</a>
-						</li>
-						<li>
-							<a href="cats">Cats</a>
-						</li>
-						<li>
-							<a href="dogs">Dogs</a>
-						</li>
-						<li>
-							<a href="rabbits">Rabbits</a>
-						</li>
-					</ul>
-				</nav>
+				<h1><a href="#">Can i has cheeseburger</a></h1>
+			    <div class="navbar">
+				    <nav class="navbar-inner">
+					    <ul class="nav">
+						    <li class="active">
+								<a href="homepage">Homepage</a>
+							</li>
+							<li>
+								<a href="cats">Cats</a>
+							</li>
+							<li>
+								<a href="dogs">Dogs</a>
+							</li>
+							<li>
+								<a href="rabbits">Rabbits</a>
+							</li>
+					    </ul>
+				    </nav>
+			    </div>
 			</header>
 		</div>
-		<div id="wrapper">
-			<div id="page-wrapper">
-				<section id="page">
-					<div id="wide-content">
+		<div class="container">
+				<section>
 				        <article>
 				        	<header>
 				        		<h1>Grumpy cat strikes again!</h1>
@@ -101,11 +100,10 @@
 				        		<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</li>
 				        	</ol>
 				        </article>
-					</div>
 		        </section>
-		        <aside id="sidebar" class="container">
+		        <aside>
 		        	<h1>Our friends</h1>
-		        	<ul>
+		        	<ul class="nav nav-pills nav-stacked">
 		        		<li>
 		        			<a href="http://www.lolcats.com/">lolcats.com</a>
 		        		</li>
@@ -114,7 +112,6 @@
 		        		</li>
 		        	</ul>
 		        </aside>
-			</div>
 		</div>
         <footer id="footer" class="container">
         	© Katarzyna Rutkowska 2013 
